@@ -34,11 +34,11 @@ public class WHideParameterDefinition extends ParameterDefinition {
 		this.defaultValue = defaultValue;
 	}
  
-    @Extension @Symbol({"hiddenParameter"})
+    @Extension @Symbol({"hiddenString"})
 	public static class DescriptorImpl extends ParameterDescriptor {
         @Override
         public String getDisplayName() {
-            return "Hidden Parameter";
+            return "Hidden String Parameter";
         }
     }
 
